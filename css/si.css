@@ -1,0 +1,132 @@
+/* Global Reset and Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #c8d8e8); /* Light, professional background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #0f0c0f;
+}
+
+/* Main Container for the Form Area */
+.container {
+    background:#a8abab;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(244, 242, 242, 0.15);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    background-color: #d3d7d8;
+}
+
+.login-btn  {
+    display: flex;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.login-btn button {
+    flex-grow: 1;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #f7f7f7;
+    transition: all 0.3s ease;
+    color: #bab3b3;
+}
+
+.login-btn  button.active {
+    background-color: #d0d8e1; 
+    color:#612727;
+    font-size: large;
+}
+
+.login-btn  button:hover:not(.active) {
+    background-color: #e0e0e0;
+}
+
+
+.form-box {
+    padding: 10px 0;
+}
+
+.form-box.active {
+    display: block; 
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #040c14;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+h2{
+    color:#2f9292;
+}
+ 
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #007bff;
+    
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1b9999;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.submit-btn:hover {
+    background-color: #d2dcdc;
+}
+.forgot-link p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000;
+    
+}
+
+.forgot-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+

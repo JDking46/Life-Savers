@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+    background-color:#b8f0ed;
+    height: 100px;
+
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 40px;
+    gap: 70%;
+
+
+}
+ul li a {
+    text-decoration: none; 
+    padding-left: 50px;
+    color: black;
+    font-size: larger;
+    padding: 10PX;
+    border-radius: 20px;
+}
+ ul li a:hover{
+  background-color: #34a6b0;
+ }
+
+.navbar ul {
+padding-top: 10px;
+background-color: #f2efef;
+gap: 15%;
+height:70px ;
+padding-left:30px ;
+
+
+}
+ .navbar ul li a{
+    color: rgba(8, 1, 1, 0.93);
+    font-size: larger;
+    display: block;
+    padding:  10px;
+    border-radius: 20px;
+ }
+ 
+.hero-section {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(140deg, #44aaa3 50%, #8EE6E0 ,white) ;
+  padding: 10px;
+}
+span{
+  color: #d2d7d7;
+}
+.hero-section h1 {
+  color: rgb(6, 69, 73);
+  font-size: 60px;
+  text-align: center;
+}
+.doctors-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(153, 235, 235);
+}
+
+ h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color:rgb(4, 85, 85);
+}
+
+.doctors-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-top: 30px;
+    
+    
+
+}
+
+.doctor-card {
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background :  linear-gradient(140deg, #cdd3d3 20%,white ) ;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #484a4a;
+    gap: 50px;
+    
+
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+
+
+}
+
+.letter {
+    padding-top: 15px;
+    gap: 5px;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+

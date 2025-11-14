@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#c8f7f5;
+    height: 100px;
+
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 50px;
+
+}
+ul li a {
+    text-decoration: none; 
+    padding-left: 50px;
+    color: black;
+    font-size: larger;
+}
+.head a{
+    padding-left: 1100px;
+
+ }
+    
+
+.navebar{
+    height: 100px;
+
+}
+ .navebar ul {
+          padding-top: 50px;
+
+
+}
+ .navebar ul li a{
+    padding-left:200px;
+    color: black;
+    font-size: larger;
+ }
+
+
+
+.doctors-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgb(153, 235, 235);
+}
+
+.doctors-section h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #1a3c6e;
+}
+
+.doctors-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.doctor-card {
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.doctor-card h2 {
+  margin-top: 15px;
+  font-size: 1.4em;
+  color: #222;
+}
+
+.specialty {
+  color: #007bff;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.experience {
+  display: inline-block;
+  color: #0056b3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  margin: 8px 0;
+}
+
+.desc {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0 20px 0;
+  line-height: 1.4em;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

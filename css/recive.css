@@ -1,0 +1,64 @@
+ body {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background: #fff;
+        padding: 40px 60px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.1); /* container shadow */
+    }
+
+    .tick-circle {
+        width: 120px;
+        height: 120px;
+        background: #00bcd4; /* teal */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 20px;
+    }
+
+    .tick-circle svg {
+        width: 70px;
+        height: 70px;
+        fill: none;
+        stroke: white;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #2d2d2d;
+    }
+
+    .btn {
+        background: #00bcd4;
+        color: white;
+        padding: 12px 26px;
+        font-size: 15px;
+        border-radius: 6px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        box-shadow: 0 4px 10px rgba(0, 188, 212, 0.3);
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 188, 212, 0.4);
+    }
