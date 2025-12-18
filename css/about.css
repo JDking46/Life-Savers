@@ -1,15 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-    background-color:#b8f0ed;
+nav {
+    background-color: #b8f0ed;
     height: 100px;
 
-    
+
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
     padding-top: 40px;
@@ -17,8 +18,9 @@ ul{
 
 
 }
+
 ul li a {
-    text-decoration: none; 
+    text-decoration: none;
     padding-left: 50px;
     color: black;
     font-size: larger;
@@ -27,25 +29,27 @@ ul li a {
 }
 
 .navbar ul {
-padding-top: 10px;
-background-color: #f2efef;
-gap: 15%;
-height:70px ;
-padding-left:30px ;
+    padding-top: 10px;
+    background-color: #f2efef;
+    gap: 15%;
+    height: 70px;
+    padding-left: 30px;
 
 
 }
- .navbar ul li a{
+
+.navbar ul li a {
     color: rgba(8, 1, 1, 0.93);
     font-size: larger;
     display: block;
-    padding:  10px;
+    padding: 10px;
     border-radius: 20px;
- }
-   ul li a:hover{
-  background-color: #34a6b0;
-  
-  
+}
+
+ul li a:hover {
+    background-color: #34a6b0;
+
+
 }
 
 .doctors-section {
@@ -57,7 +61,7 @@ padding-left:30px ;
 .doctors-section h1 {
     font-size: 2em;
     margin-bottom: 30px;
-    color:rgb(18, 79, 79);
+    color: rgb(18, 79, 79);
 }
 
 .doctors-container {
@@ -123,31 +127,33 @@ h3 {
     font-size: 40px;
     padding-left: 80px;
 }
-.small{
+
+.small {
     padding-left: 80px;
     line-height: 30px;
     font-family: sans-serif;
     text-align: left;
     padding-top: 30px;
 }
-.main ul{
+
+.main ul {
     display: flex;
     font-family: sans-serif;
-    gap:50px ;
+    gap: 50px;
     padding-left: 180px;
     line-height: 40px;
     color: rgb(12, 14, 14);
     font-weight: 10px;
 }
- 
-.main ul  i{
-        color:#11e8e8;
-    }
+
+.main ul i {
+    color: #11e8e8;
+}
 
 img {
     height: 500px;
     position: relative;
-    box-shadow:#3f8c8c ;
+    box-shadow: #3f8c8c;
     border-radius: 20px;
-    width: 40%; 
+    width: 40%;
 }

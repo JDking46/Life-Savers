@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #f0f4f8, #c8d8e8);
@@ -12,7 +11,7 @@ body {
 
 
 .container {
-    background:#dadddd;
+    background: #dadddd;
     padding: 30px;
     border-radius: 12px;
     width: 100%;
@@ -41,8 +40,8 @@ body {
 }
 
 .login-btn button.active {
-    background-color: #d0d8e1; 
-    color:#555;
+    background-color: #d0d8e1;
+    color: #555;
     font-size: large;
 }
 
@@ -52,12 +51,12 @@ body {
 
 
 .form-box {
-    display: none; 
+    display: none;
     padding: 10px 0;
 }
 
 .form-box.active {
-    display:block; 
+    display: block;
 }
 
 .form-box h2 {
@@ -83,7 +82,7 @@ body {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-size: 16px;
     background-color: #fff;
 }
@@ -106,11 +105,9 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
-    
+
 }
 
 .submit-btn:hover {
     background-color: #dfe2e2;
 }
-
-

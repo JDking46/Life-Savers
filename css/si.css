@@ -1,7 +1,8 @@
 /* Global Reset and Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f0f4f8, #c8d8e8); /* Light, professional background */
+    background: linear-gradient(135deg, #f0f4f8, #c8d8e8);
+    /* Light, professional background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,7 @@ body {
 
 /* Main Container for the Form Area */
 .container {
-    background:#a8abab;
+    background: #a8abab;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(244, 242, 242, 0.15);
@@ -22,7 +23,7 @@ body {
     background-color: #d3d7d8;
 }
 
-.login-btn  {
+.login-btn {
     display: flex;
     margin-bottom: 25px;
     border-radius: 8px;
@@ -41,13 +42,13 @@ body {
     color: #bab3b3;
 }
 
-.login-btn  button.active {
-    background-color: #d0d8e1; 
-    color:#612727;
+.login-btn button.active {
+    background-color: #d0d8e1;
+    color: #612727;
     font-size: large;
 }
 
-.login-btn  button:hover:not(.active) {
+.login-btn button:hover:not(.active) {
     background-color: #e0e0e0;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .form-box.active {
-    display: block; 
+    display: block;
 }
 
 .form-box h2 {
@@ -66,10 +67,11 @@ body {
     margin-bottom: 20px;
     font-weight: 600;
 }
-h2{
-    color:#2f9292;
+
+h2 {
+    color: #2f9292;
 }
- 
+
 .input-group {
     margin-bottom: 15px;
 }
@@ -96,7 +98,7 @@ h2{
 .input-group input:focus,
 .input-group select:focus {
     border-color: #007bff;
-    
+
 }
 
 
@@ -116,17 +118,16 @@ h2{
 .submit-btn:hover {
     background-color: #d2dcdc;
 }
-.forgot-link p{
+
+.forgot-link p {
     text-align: center;
     margin-top: 15px;
     font-size: 14px;
     color: #000000;
-    
+
 }
 
 .forgot-link a {
     color: #007bff;
     text-decoration: none;
 }
-
-

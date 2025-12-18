@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Blood Request System</title>
+    <link rel="stylesheet" href="/css/appointmet.css" />
+</head>
+<body>
+  <div class="page">
+
+    <header class="top-bar">
+      <div class="top-left">
+        <span class="drop-icon">🩸</span>
+        <span class="app-title">Blood Request System</span>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <section id="patient-requests" class="section-block">
+        <h1 class="page-title">
+          <span class="icon">📋</span>
+          Patient Blood Requests to Doctors
+        </h1>
+
+        <table class="request-table">
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Doctor Name</th>
+              <th>Date</th>
+              <th>Message</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+      
+            <tr>
+              <td>Michael Kumar</td>
+              <td>Dr. Sarah Johnson</td>
+              <td>
+                Dec 17, 2025<br>
+                10:30 AM
+              </td>
+              <td>
+                Urgent: Need O- blood for emergency surgery.
+                Patient is 45-year-old male. Critical condition.
+              </td>
+              <td>
+                <span class="status status-pending">Pending</span>
+              </td>
+              <td class="actions">
+                <span class="btn btn-accept">Accept</span>
+                <span class="btn btn-reject">Reject</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Rahul Patel</td>
+              <td>Dr. Amanda Wilson</td>
+              <td>
+                Dec 16, 2025<br>
+                03:15 PM
+              </td>
+              <td>
+                Need A+ blood for scheduled procedure next week.
+                Patient has low hemoglobin.
+              </td>
+              <td>
+                <span class="status status-accepted">Accepted</span>
+              </td>
+              <td class="actions">
+                <span class="btn btn-accept soft">Accept</span>
+                <span class="btn btn-reject soft">Reject</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Priya Sharma</td>
+              <td>Dr. James Brown</td>
+              <td>
+                Dec 15, 2025<br>
+                09:45 AM
+              </td>
+              <td>
+                Requesting B+ blood for chemotherapy support.
+                Patient scheduled for treatment tomorrow.
+              </td>
+              <td>
+                <span class="status status-rejected">Rejected</span>
+              </td>
+              <td class="actions">
+                <span class="btn btn-accept soft">Accept</span>
+                <span class="btn btn-reject soft">Reject</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="doctor-replies" class="section-block replies-section">
+        <h1 class="page-title">
+          <span class="icon">💬</span>
+          Doctor Replies to Patients
+        </h1>
+
+        <div class="reply-card">
+          <div class="reply-header">
+            <div class="reply-title">
+              <span class="check-mark">✓</span>
+              <span>Request Accepted</span>
+            </div>
+            <span class="reply-status">ACCEPTED</span>
+          </div>
+
+          <hr class="reply-divider">
+
+          <div class="reply-meta">
+            <p><span class="label">Doctor:</span> Dr. Amanda Wilson</p>
+            <p><span class="label">Patient:</span> Rahul Patel</p>
+            <p>
+              <span class="calendar-icon">📅</span>
+              December 16, 2025 – 04:30 PM
+            </p>
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

@@ -3,49 +3,53 @@
   padding: 0;
 }
 
-nav{
-    background-color:#b8f0ed;
-    height: 100px;
-
-    
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    padding-top: 40px;
-    gap: 70%;
+nav {
+  background-color: #b8f0ed;
+  height: 100px;
 
 
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-top: 40px;
+  gap: 70%;
+
+
+}
+
 ul li a {
-    text-decoration: none; 
-    padding-left: 50px;
-    color: black;
-    font-size: larger;
-    padding: 10PX;
-    border-radius: 20px;
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+  font-size: larger;
+  padding: 10PX;
+  border-radius: 20px;
 }
 
 .navbar ul {
-padding-top: 10px;
-background-color: #f2efef;
-gap: 15%;
-height:70px ;
-padding-left:30px ;
+  padding-top: 10px;
+  background-color: #f2efef;
+  gap: 15%;
+  height: 70px;
+  padding-left: 30px;
 
 
 }
- .navbar ul li a{
-    color: rgba(8, 1, 1, 0.93);
-    font-size: larger;
-    display: block;
-    padding:  10px;
-    border-radius: 20px;
- }
-   ul li a:hover{
+
+.navbar ul li a {
+  color: rgba(8, 1, 1, 0.93);
+  font-size: larger;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+ul li a:hover {
   background-color: #34a6b0;
-  
-  
+
+
 }
 
 
@@ -128,6 +132,5 @@ padding-left:30px ;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #0056b3;
 }
-
