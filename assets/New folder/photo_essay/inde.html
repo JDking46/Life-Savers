@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: rgb(32, 44, 48);
+      }
+      #container {
+        width: 400px;
+        height: 80%;
+        background-color: rgb(237, 4, 4);
+        border-radius: 10px;
+        display: flex;
+        align-items: end;
+      }
+      #cart {
+        width: 400px;
+
+        background-color: rgb(255, 255, 255);
+        border-radius: 10% 10% 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+      #btn {
+        width: 400px;
+        height: 70px;
+        background-color: rgb(247, 191, 7);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      /* top  section */
+      img {
+        height: 250px;
+        object-fit: cover;
+        width: 350px;
+        border-radius: 20px;
+      }
+      .img {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+      }
+      .img p {
+        width: 300px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .img h1 {
+        text-transform: capitalize;
+        color: rgb(237, 4, 4);
+      }
+
+      /* color section */
+      .color {
+        display: flex;
+        gap: 20px;
+      }
+      .color div:nth-child(1) {
+        background-color: rgb(222, 135, 135);
+      }
+      .color div:nth-child(2) {
+        background-color: burlywood;
+      }
+      .color div:nth-child(3) {
+        background-color: rgb(54, 40, 183);
+      }
+      .color div {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+
+      /* content */
+      .content {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      /* rate */
+
+      .calc {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .calc button {
+        width: 30px;
+        height: 30px;
+      }
+      .rate{
+        position: relative;
+        bottom: 45px;
+      }
+    </style>
+    <div id="container">
+      <div id="cart">
+        <div class="img">
+          <h1>men shirt</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+            dolorum atque. Aperiam quos reiciendis dolorum.
+          </p>
+          <img
+            src="https://img.freepik.com/premium-photo/image-chihuahua-puppy-with-camera-gray-background_856795-12308.jpg?semt=ais_hybrid&w=740&q=80"
+            alt=""
+          />
+        </div>
+
+        <div class="content">
+          <div class="sixe">
+            <h1>$125</h1>
+            <p>size</p>
+            <p>
+              <span>xl</span>
+              <span>s</span>
+              <span>m</span>
+              <span>l</span>
+              <span>xs</span>
+            </p>
+            <p>Colors</p>
+            <div class="color">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <div class="rate">
+            <div class="start">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="calc">
+              <button>+</button>
+              <p>1</p>
+              <button>-</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="btn">ADD TO CART</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.logo{
+    border-radius: 30px;
+    border-top: 2px;
+    display: flex;
+    
+}
+.logo img{
+    height: 60px;
+    width: 110px;
+}
 nav {
     background-color: #b8f0ed;
     height: 100px;
@@ -33,7 +43,7 @@ ul li a {
     background-color: #f2efef;
     gap: 15%;
     height: 70px;
-    padding-left: 30px;
+    padding-left: 280px;
 
 
 }
@@ -47,10 +57,14 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #34a6b0;
+    color: #34a6b0;
 
 
 }
+.navbar ul li a:hover{
+  color: #0dece5;
+  -webkit-background-clip: text;
+ }
 
 .doctors-section {
     text-align: center;

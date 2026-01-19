@@ -33,7 +33,7 @@ ul li a {
   background-color: #f2efef;
   gap: 15%;
   height: 70px;
-  padding-left: 30px;
+  padding-left: 280px;
 
 
 }
@@ -47,10 +47,14 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #34a6b0;
+color: #34a6b0;
 
 
 }
+.navbar ul li a:hover{
+  color: #0dece5;
+  -webkit-background-clip: text;
+ }
 
 
 
@@ -111,8 +115,10 @@ ul li a:hover {
 .doctor-card h2 {
   margin-top: 5px;
   font-size: 1.4em;
-  color: #222;
-  text-align: left;
+  background: linear-gradient(140deg, #424a49 50%, #8EE6E0 ,white) ;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .specialty {
